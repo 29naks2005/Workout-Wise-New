@@ -1,0 +1,296 @@
+/*!**************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[3]!./src/app/workouts/Workout.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************/
+.heading {
+  padding: 60px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+  min-height: 100vh;
+  color: #f1f1f1;
+  text-align: center;
+}
+
+.heading .search-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+  gap: 20px;
+}
+
+.heading select {
+  padding: 15px 20px;
+  font-size: 18px;
+  border: 2px solid #00bfff;
+  border-radius: 10px;
+  outline: none;
+  background-color: #121212;
+  color: #f1f1f1;
+  width: 300px;
+  cursor: pointer;
+  transition: border-color 0.3s, background-color 0.3s;
+  margin: 20px;
+}
+
+.heading select:hover {
+  border-color: #1e90ff;
+  background-color: #1c1c1c;
+}
+
+.heading button {
+  padding: 14px 28px;
+  font-size: 18px;
+  background-color: #00bfff;
+  color: #000;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.heading button:hover {
+  background-color: #1e90ff;
+  color: #fff;
+}
+
+.heading .exercise-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.exercise-card {
+  background-color: #1e1e1e;
+  border: 1px solid #2c2c2c;
+  padding: 24px;
+  width: 320px;
+  border-radius: 14px;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 10px;
+  text-align: center;
+}
+
+.exercise-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.5);
+}
+
+.exercise-card h3 {
+  font-size: 22px;
+  color: #00bfff;
+  margin-bottom: 12px;
+  text-transform: capitalize;
+}
+
+.exercise-card p {
+  margin: 6px 0;
+  font-size: 16px;
+  color: #cccccc;
+}
+
+.exercise-card img {
+  margin-top: 12px;
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  max-height: 280px;
+  object-fit: cover;
+  border: 1px solid #333;
+}
+
+.exercise-detail {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #1e1e2f;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  color: #f0f0f0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.exercise-detail button {
+  background-color: #ff4747;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.exercise-detail button:hover {
+  background-color: #e63e3e;
+}
+
+.exercise-detail h2 {
+  font-size: 3rem;
+  margin: 1rem 0;
+  color: #ffd700;
+  letter-spacing: 1px;
+}
+
+.exercise-detail img {
+  width: 100%;
+  max-width: 360px;
+  border-radius: 15px;
+  margin: 1.5rem 0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.exercise-detail p {
+  font-size: 1.3rem;
+  margin: 0.8rem 0;
+}
+
+.exercise-detail span {
+  font-weight: bold;
+  color: #76c7c0;
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[3]!./src/components/Navbar.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .navbar {
+    background-color: transparent;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .logo {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #f6c90e;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 2rem;
+    transition: color 0.3s;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-right: 12px;
+  }
+  
+  .nav-links a:hover {
+    color: orange;
+  }
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+    z-index: 999;
+    min-width: 150px;
+    border-radius: 4px;
+  }
+  
+  .dropdown-content a {
+    display: block;
+    padding: 8px 16px;
+    color: #333;
+    text-decoration: none;
+    transition: background 0.2s;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  @media (max-width: 768px) {
+    .nav-links {
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      background: whitesmoke;
+      flex-direction: column;
+      align-items: center;
+      display: none;
+    }
+    .nav-links a {
+      color: #333;
+    }
+  
+    .nav-links.open {
+      display: flex;
+    }
+  
+    .dropdown-content {
+      position: static;
+      box-shadow: none;
+      background: none;
+      padding: 0;
+    }
+  
+    .dropdown-content a {
+      padding: 8px 0;
+      color: #f6c90e;
+    }
+  
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  }
+  
+/*!************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[3]!./src/components/Slider2.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************/
+.video-background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+.video-text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 10rem;
+    font-weight: bold;
+    text-align: center;
+    z-index: 1;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    font-family: 'Impact', 'Arial Black', sans-serif;
+    pointer-events: none;
+  }
+  
+  .video-text-overlay span {
+    color: #FFD700; }

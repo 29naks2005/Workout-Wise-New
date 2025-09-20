@@ -5,7 +5,7 @@ import cors from "cors";
 const app = express();
 const prisma = new PrismaClient();
 
-app.use(cors({ origin: "http://localhost:3001" })); // 👈 must be before routes
+app.use(cors({ origin: "http://localhost:3000" })); // 👈 must be before routes
 app.use(express.json());
 
 app.get("/plans", async (req, res) => {
@@ -25,4 +25,4 @@ app.get("/plans", async (req, res) => {
   }
 });
 
-app.listen(3000, () => console.log("✅ API running on http://localhost:3000"));
+app.listen(3001, () => console.log("✅ API running on http://localhost:3001"));

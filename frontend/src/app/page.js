@@ -2,7 +2,6 @@ import Slider from "@/components/Slider";
 import Navbar from "./../components/Navbar"
 import WhatIOffer from "@/components/WhatIOffer";
 import WorkoutHighlight from "@/components/WorkoutHighlight";
-import BMICalculator from "@/components/BMICalculator";
 import Start from "../components/Start.jsx";
 
 export default function Home() {
@@ -13,7 +12,6 @@ export default function Home() {
       <Start/>
       <WhatIOffer />
       <WorkoutHighlight/>
-      <BMICalculator/>
     </div>
   );
 }

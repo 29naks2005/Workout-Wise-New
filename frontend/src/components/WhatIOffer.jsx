@@ -39,9 +39,7 @@ export default function WhatIOffer() {
             key={index}
             className="offer-card"
           >
-            <Link href={offer.link}>
               <img src={offer.image} alt={offer.title} />
-            </Link>
             <h3>{offer.title}</h3>
             <p>{offer.description}</p>
           </div>

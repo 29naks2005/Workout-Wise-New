@@ -1,0 +1,65 @@
+body{
+    background-color:#1c1c1e;
+    background-image: url("https://www.shutterstock.com/image-photo/white-clouds-vapor-smoke-isolated-600nw-1269546754.jpg");
+    background-size: cover;
+}
+h1{
+    color:black;
+    font-size: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: yellow;
+    margin: 10px;
+    border-radius: 20px;
+}
+/* Wrap list nicely and center it */
+.plans-list {
+  list-style: none;            /* remove bullets */
+  margin: 40px auto 0;
+  padding: 0;
+  max-width: 800px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+/* Each workout plan card */
+.plans-list li {
+  background: rgba(0, 0, 0, 0.6); /* semi-transparent black card */
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-left: 6px solid #ffd54f;  /* yellow accent stripe */
+  border-radius: 12px;
+  padding: 18px 20px;
+  color: #f7f7f7;
+  font-family: Inter, sans-serif;
+  line-height: 1.5;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.5);
+}
+
+/* Hover effect for interactivity */
+.plans-list li:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.7);
+  border-left-color: #ffea86; /* brighter yellow on hover */
+}
+
+/* Style the plan title */
+.plans-list li strong {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #ffd54f;
+  margin-bottom: 6px;
+}
+
+/* Optional: responsive tweaks */
+@media (max-width: 480px) {
+  .plans-list {
+    gap: 14px;
+  }
+  .plans-list li {
+    padding: 16px;
+  }
+}

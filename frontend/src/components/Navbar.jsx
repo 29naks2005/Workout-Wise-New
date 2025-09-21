@@ -12,16 +12,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <div className="logo">WORKOUT WISE</div>
-
-      <div className="nav-links">
-        <Link href="/">Home</Link>
-        <div className="dropdown">
-          <Link href="/workouts">Workouts</Link>
-        </div>
-        <Link href="/myPlan">Custom-Workout</Link>
-
-      </div>
+      <div className="logo"><Link href="/">WORKOUT WISE</Link></div>
     </nav>
   );
 };

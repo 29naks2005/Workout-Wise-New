@@ -200,38 +200,6 @@
   .nav-links a:hover {
     color: orange;
   }
-  .dropdown {
-    position: relative;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    top: 100%;
-    background-color: #fff;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    padding: 10px 0;
-    z-index: 999;
-    min-width: 150px;
-    border-radius: 4px;
-  }
-  
-  .dropdown-content a {
-    display: block;
-    padding: 8px 16px;
-    color: #333;
-    text-decoration: none;
-    transition: background 0.2s;
-  }
-  
-  .dropdown-content a:hover {
-    background-color: #f0f0f0;
-  }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  
   @media (max-width: 768px) {
     .nav-links {
       position: absolute;
@@ -250,23 +218,7 @@
     .nav-links.open {
       display: flex;
     }
-  
-    .dropdown-content {
-      position: static;
-      box-shadow: none;
-      background: none;
-      padding: 0;
-    }
-  
-    .dropdown-content a {
-      padding: 8px 0;
-      color: #f6c90e;
-    }
-  
-    .dropdown:hover .dropdown-content {
-      display: block;
-    }
-  }
+}
   
 /*!************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[3]!./src/components/Slider2.css ***!

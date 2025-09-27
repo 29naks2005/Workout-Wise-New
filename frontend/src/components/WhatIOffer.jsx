@@ -22,7 +22,7 @@ export default function WhatIOffer() {
       link: "/musclegain",
     },
     {
-      image: "https://tophealthdoctors.com.au/wp-content/uploads/2024/07/weight-loss.png",
+      image: "https://plus.unsplash.com/premium_photo-1726876998600-ba6286df9c80?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8d2VpZ2h0JTIwbG9zc3xlbnwwfHwwfHx8MA%3D%3D",
       title: "WEIGHT LOSS",
       description:
         "Lose weight the right way — no shortcuts, just solid strategy.",

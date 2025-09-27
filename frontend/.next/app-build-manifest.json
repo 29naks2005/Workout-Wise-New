@@ -12,17 +12,17 @@
       "static/css/app/page.css",
       "static/chunks/app/page.js"
     ],
-    "/myPlan/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/myPlan/page.css",
-      "static/chunks/app/myPlan/page.js"
-    ],
     "/workouts/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/workouts/page.css",
       "static/chunks/app/workouts/page.js"
+    ],
+    "/myPlan/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/myPlan/page.css",
+      "static/chunks/app/myPlan/page.js"
     ],
     "/bmicalculator/page": [
       "static/chunks/webpack.js",

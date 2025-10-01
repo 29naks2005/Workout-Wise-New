@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import "./WorkoutForm.css"; // 👈 yeh line add karna
+import "./WorkoutForm.css";
 
 export default function WorkoutForm({ onSubmit }) {
   const [fitnessLevel, setFitnessLevel] = useState("beginner");
